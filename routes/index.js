@@ -8,6 +8,18 @@ router.get('/', function(req, res, next) {
 })
 
 
+// objetivos
+router.get('/objetivos', (req, res) => {
+  res.render('objetivos')
+} )
+
+
+// objetivos
+router.get('/cursos', (req, res) => {
+  res.render('cursos')
+} )
+
+
 // mision
 router.get('/mision', (req, res) => {
   res.render('mision')
